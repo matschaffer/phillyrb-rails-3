@@ -6,6 +6,5 @@
   {"section": "arel"},
   {"section": "action_mailer"},
   {"section": "active_model"},
-  {"section": "others"},
-  {"section": "resources"}
+  {"section": "others"}
 ]
