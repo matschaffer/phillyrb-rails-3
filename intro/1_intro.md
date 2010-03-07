@@ -3,23 +3,19 @@
 # Rails 3 #
 ## A Brief Introduction ##
 
-!SLIDE
-
-## For anyone new, I'm Darcy ##
+### Philly.rb ­ March 9th, 2010 ###
 
 !SLIDE
 
-## @Sutto ##
+## I'm Mat Schaffer ##
+## @matschaffer ##
+## http://matschaffer.com ##
 
 !SLIDE
 
+## These slides were forked from Darcy Laycock ##
+## of Ruby on Rails Oceania (Perth) ##
 ## http://github.com/Sutto ##
-
-!SLIDE center
-
-![Holy Crap, a Beagle!](bb-logo.gif)
-
-## http://brownbeagle.com.au/ ##
 
 !SLIDE incremental bullets
 
