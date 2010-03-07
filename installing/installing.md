@@ -12,6 +12,7 @@
     ... lots of lines ...
     Successfully installed rails3b-3.0.1
     ... more lines ...
+    (this is a wrapper gem for rails beta dependencies)
 
 !SLIDE
 
@@ -26,7 +27,7 @@
 
 !SLIDE
 
-## But if you have rails < 3 installed... ##
+## But if you also need rails 2 installed... ##
 
 !SLIDE center
 
@@ -34,32 +35,13 @@
 
 !SLIDE
 
-### Installation is a pain in the ass. Use RVM / something to manage environments ###
+### Managing versions is a pain in the ass. ###
+### Use something to manage gem environments ###
 
-### e.g. RVM ###
-
-!SLIDE
-
-## Or gemset ##
-
-### http://gist.github.com/307257 ###
-
-!SLIDE commandline incremental
-
-## E.g. using default gems: ##
-
-    $ gemset
-    Using default gemset.
-
-!SLIDE commandline incremental
-    
-## Using a named gemset:
-
-    $ gemset rails3
-    Using gemset: rails3 (location: '/Users/sutto/.gems-switcher/rails3')
+### RVM: http://rvm.beginrescueend.com/ ###
+### gemset: http://gist.github.com/307257 ###
 
 !SLIDE
 
 ## That's pretty much it. ##
 
-    
