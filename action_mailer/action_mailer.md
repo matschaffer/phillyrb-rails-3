@@ -6,7 +6,6 @@
 
 * No longer uses tmail
 * More controller like interface
-* 
 
 !SLIDE
 
@@ -31,13 +30,13 @@
            :body => File.read("hi.jpg")
        end
      end
-     
+
 !SLIDE
 
 ## You can use... ###
-     
+
 !SLIDE code
-    
+
     @@@ ruby
     class Notifier < ActionMailer::Base
       default :from => "system@example.com"
@@ -51,17 +50,16 @@
              :subject => "Ninjas!")
       end
     end
-    
 !SLIDE code
 
     @@@ ruby
     Notifier.signup_notification(@user).deliver
-    
+
 ### was ###
 
     @@@ ruby
     Notifier.deliver_signup_notification(@user)
-    
+
 !SLIDE
 
 ## See http://bit.ly/rails-3-mailers ##

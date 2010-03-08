@@ -21,7 +21,7 @@
     end
     person = Person.new(:first_name => 'zoolander')
     person.valid? #=> false
-     
+
 !SLIDE
 
 ## All the cool bits of AR, Not of the DB requirements ##

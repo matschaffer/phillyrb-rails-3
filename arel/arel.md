@@ -19,7 +19,7 @@
 !SLIDE
 
 ## Or a more complex example... ##
-    
+
 !SLIDE code
 
     @@@ ruby
@@ -32,7 +32,7 @@
     users.join(photo_counts).
       on(users[:id].
       eq(photo_counts[:user_id])).to_sql
-      
+
 !SLIDE code
 
     @@@ sql
