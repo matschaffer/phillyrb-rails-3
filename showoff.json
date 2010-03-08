@@ -1,5 +1,6 @@
 [
   {"section": "intro"},
+  {"section": "bigpicture"},
   {"section": "installing"},
   {"section": "bundler"},
   {"section": "router"},
