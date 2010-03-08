@@ -1,10 +1,10 @@
 !SLIDE subsection
 
-# The New Bundler #
+# Bundler #
 
-!SLIDE
+!SLIDE incremental commandline
 
-## gem install bundler ##
+    $ gem install bundler
 
 !SLIDE incremental bullets
 
@@ -19,11 +19,10 @@
     @@@ ruby
     source 'http://gemcutter.org'
     gem "rails", "3.0.0.beta"
-    gem "haml"
+    gem "haml", :git => 'git://github.com/nex3/haml.git'
     gem "mysql"
     gem "formtastic"
     gem "rails3-generators"
-    gem "rpx_now"
     group :test do
       gem "shoulda"
       gem "factory_girl"
