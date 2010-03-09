@@ -24,7 +24,7 @@
 
 !SLIDE
 
-## All the cool bits of AR, Not of the DB requirements ##
+## All the cool bits of AR, none of the DB requirements ##
 ## Makes writing other ORMs much easier ##
 
 !SLIDE bullets incremental
