@@ -103,5 +103,7 @@
 
 !SLIDE
 
-## http://phillyrb-rails3.heroku.com/ ##
-## http://roro-perth-rails3.heroku.com/ ##
+## http://guides.rails.info/3_0_release_notes.html ##
+## http://railscasts.com/tags/27 ##
+## http://omgbloglol.com ##
+## http://docs.heroku.com/rails3 ##
