@@ -6,6 +6,7 @@
 
 * Proper SQL generation based
 * Generates queries using a proper engine
+* Lazy-loads the data on first/all/each...
 
 !SLIDE code
 
@@ -25,10 +26,12 @@
     @@@ ruby
     photos = Table(:photos)
     users  = Table(:users)
+
     photo_counts = photos.
       group(photos[:user_id]).
       project(photos[:user_id],
-      photos[:id].count)
+              photos[:id].count)
+
     users.join(photo_counts).
       on(users[:id].
       eq(photo_counts[:user_id])).to_sql
