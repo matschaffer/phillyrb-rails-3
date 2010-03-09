@@ -36,7 +36,7 @@
 
     safe_helper :fn
 
-    String#html_safe
+    String#html_safe!
 
 !SLIDE
 
