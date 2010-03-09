@@ -17,11 +17,7 @@
 ## of Ruby on Rails Oceania (Perth) ##
 ## http://github.com/Sutto ##
 
-!SLIDE incremental bullets
+!SLIDE 
 
 ## This talk is... ##
 
-* What's new
-* What's different
-* What's painful
-* What's awesome!

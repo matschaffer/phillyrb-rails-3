@@ -33,7 +33,7 @@
 ## Install all gems locally... ##
 
     $ bundle install vendor/bundler_gems
-    
+
 ## Or to the system... ##
 
     $ bundle install
@@ -43,11 +43,11 @@
 ## Lock to a specific version of gems ##
 
     $ bundle lock
-    
+
 !SLIDE
 
 ## For the most part, it just works. ##
 
 !SLIDE
 
-## Symlink .bundle, vendor/cache and vendor/bundler\_gems w/ capistrano
+## Symlink .bundle, vendor/cache and vendor/bundler\_gems for deployment
