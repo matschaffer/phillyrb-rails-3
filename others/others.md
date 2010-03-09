@@ -4,7 +4,7 @@
 
 !SLIDE
 
-## Generators using Thor ##
+## Pluggable Generators using Thor ##
 ### http://github.com/indirect/rails3-generators ###
 
 !SLIDE
@@ -32,6 +32,14 @@
 
 !SLIDE
 
+    raw('some <strong>html</strong>') 
+
+    safe_helper :fn
+
+    String#html_safe
+
+!SLIDE
+
 ## Better Plugin API ##
 
 !SLIDE bullets incremental
@@ -45,9 +53,15 @@
 
 ## named\_scope changes ##
 
+    # not this
+    named_scope :sorted, :order => 'name'
+
+    # this
+    scope :sorted, order('name')
+
 !SLIDE
 
-## scripts/rails ##
+## script/rails ##
 
 !SLIDE
 
@@ -66,7 +80,9 @@
 
 !SLIDE
 
-## RAILS\_ROOT is deprecated. ##
+## RAILS\_* is deprecated. ##
+## Rails.* is the new hotness. ##
+
 
 !SLIDE
 
@@ -76,10 +92,16 @@
 
 # Upgrading #
 
+!SLIDE bullets
+
+* Plugin helper: github.com/rails/rails\_upgrade 
+* Rails Upgrade Handbook 
+
 !SLIDE center
 
 ![Questions?](lolcats-funny-pictures-questionmark.jpg)
 
 !SLIDE
 
+## http://phillyrb-rails3.heroku.com/ ##
 ## http://roro-perth-rails3.heroku.com/ ##
