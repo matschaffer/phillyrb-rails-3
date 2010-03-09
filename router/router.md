@@ -12,7 +12,7 @@
 !SLIDE code
 
     @@@ ruby
-    BarcampPerth::Application.routes.draw do |map|
+    PhillyRB::Application.routes.draw do |map|
       match 'signin',
         :to => 'user_sessions#new',
         :as => :signin
@@ -28,16 +28,13 @@
         end
       end
     end
-    
+
 !SLIDE code
 
 ## Mount arbitrary rack apps... ##
 
     @@@ ruby
-    BarcampPerth::Application.routes.draw do |map|
+    PhillyRB::Application.routes.draw do |map|
       match '/ninjas', :to => YourRackApp
     end
-    
-!SLIDE
 
-## Lets look at the app... ##
